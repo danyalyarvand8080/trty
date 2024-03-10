@@ -1,0 +1,610 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Medium.eot);
+    src: url(../vazir-font-v16.1.0/vazir-font-v16.1.0/) format('embedded-opentype'), /* IE6-8 */
+    url(../vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Medium.woff2) format('woff2'), /* FF39+,Chrome36+, opera24+ */
+    url(../vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Medium.woff) format('woff'), /* FF3.6+,IE9, Chrome6+,sof5.1+ */
+    url(../vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Medium.ttf) format('truetype');
+}
+
+body {
+    font-family: vazir;
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+
+.sarg {
+    direction: rtl;
+    background-color: rgb(59, 59, 59);
+    height: 100px; 
+}
+
+.mttn {
+    direction: rtl;
+    margin-top: 33px;
+    margin-right: 4%;
+    display: inline-block;
+    font-size: 17px;
+    color: white;
+}
+
+.search-box {
+    width: 30%;
+    height: 25%;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(172, 172, 172);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin-right: 1%;
+}
+
+.search-button {
+    width: 30px;   
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.search-input {
+    font-family: vazir;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+    background-color: transparent;
+    border: none;
+}
+
+.asd {
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    width: 115px;
+}
+
+.pay {
+    box-shadow: 0px 0px 5px;
+    margin: 20px 49px 20px 20px;
+    background-color: #434343;
+    width: 155px;
+    height: 225px;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.mon {
+    text-shadow: 0px 0px 2px black;
+    color: white;
+    margin-right: 30%;
+}
+
+.pip {
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(145, 145, 145);
+    width: 97%;
+    height: 608px;
+}
+
+.saf {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    padding-top: 15px;
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    body {
+        background-color: gray;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        direction: rtl;
+    }
+    
+    .sarg {
+        direction: rtl;
+        background-color: rgb(59, 59, 59);
+        height: 100px; 
+    }
+    
+    .mttn {
+        direction: rtl;
+        margin-top: 33px;
+        margin-right: 4%;
+        display: inline-block;
+        font-size: 17px;
+        color: white;
+    }
+    
+    .search-box {
+        width: 30%;
+        height: 25%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 1%;
+    }
+    
+    .search-button {
+        width: 30px;   
+        height: 30px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-weight: 700;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .asd {
+        border-radius: 10px;
+        margin: 20px 20px 0px 20px;
+        width: 115px;
+    }
+    
+    .pay {
+        box-shadow: 0px 0px 5px;
+        margin: 20px 49px 20px 20px;
+        background-color: #434343;
+        width: 155px;
+        height: 225px;
+        border-radius: 7px;
+        display: inline-block;
+    }
+    
+    .mon {
+        text-shadow: 0px 0px 2px black;
+        color: white;
+        margin-right: 30%;
+    }
+    
+    .pip {
+        border-radius: 10px;
+        margin: 20px;
+        background-color: rgb(145, 145, 145);
+        width: 95%;
+        height: 880px;
+    }
+    
+    .saf {
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        color: white;
+        text-shadow: 0px 0px 1px black;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    body {
+        background-color: gray;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        direction: rtl;
+    }
+    
+    .sarg {
+        direction: rtl;
+        background-color: rgb(59, 59, 59);
+        height: 100px; 
+    }
+    
+    .mttn {
+        direction: rtl;
+        margin-top: 33px;
+        margin-right: 4%;
+        display: inline-block;
+        font-size: 17px;
+        color: white;
+    }
+    
+    .search-box {
+        width: 30%;
+        height: 25%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 1%;
+    }
+    
+    .search-button {
+        width: 30px;   
+        height: 30px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-weight: 700;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .asd {
+        border-radius: 10px;
+        margin: 20px 20px 0px 20px;
+        width: 115px;
+    }
+    
+    .pay {
+        box-shadow: 0px 0px 5px;
+        margin: 20px 60px 20px 20px;
+        background-color: #434343;
+        width: 155px;
+        height: 225px;
+        border-radius: 7px;
+        display: inline-block;
+    }
+    
+    .mon {
+        text-shadow: 0px 0px 2px black;
+        color: white;
+        margin-right: 30%;
+    }
+    
+    .pip {
+        border-radius: 10px;
+        margin: 20px;
+        background-color: rgb(145, 145, 145);
+        width: 95%;
+        height: 1137px;
+    }
+    
+    .saf {
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        color: white;
+        text-shadow: 0px 0px 1px black;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    body {
+        background-color: gray;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        direction: rtl;
+    }
+    
+    .sarg {
+        direction: rtl;
+        background-color: rgb(59, 59, 59);
+        height: 60px; 
+        width: 100%;
+    }
+    
+    .mttn {
+        direction: rtl;
+        margin-top: 15px;
+        margin-right: 4%;
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .search-box {
+        width: 40%;
+        height: 36%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 1%;
+    }
+    
+    .search-button {
+        width: 27px;   
+        height: 27px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-weight: 700;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .asd {
+        border-radius: 10px;
+    margin: 9px 14px 0px 21px;
+    width: 63px;
+    }
+    
+    .pay {
+        box-shadow: 0px 0px 5px;
+    margin: 36px 21px 0px 14px;
+    background-color: #434343;
+    width: 90px;
+    height: 126px;
+    border-radius: 7px;
+    display: inline-block;
+    }
+    
+    .mon {
+        font-size: 11px;
+    text-shadow: 0px 0px 2px black;
+    color: white;
+    margin-right: 29%;
+    }
+    
+    .pip {
+        border-radius: 10px;
+        margin: 20px;
+        background-color: rgb(145, 145, 145);
+        width: 90%;
+        height: 880px;
+    }
+    
+    .saf {
+        text-align: center;
+        display: block;
+        font-size: 15px;
+        color: white;
+        text-shadow: 0px 0px 1px black;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    body {
+        background-color: gray;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        direction: rtl;
+    }
+    
+    .sarg {
+        direction: rtl;
+        background-color: rgb(59, 59, 59);
+        height: 60px; 
+        width: 100%;
+    }
+    
+    .mttn {
+        direction: rtl;
+        margin-top: 15px;
+        margin-right: 4%;
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .search-box {
+        width: 40%;
+        height: 36%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 1%;
+    }
+    
+    .search-button {
+        width: 25px;   
+        height: 25px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-weight: 700;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .asd {
+        border-radius: 10px;
+    margin: 9px 10px 0px 21px;
+    width: 77%;
+    }
+    
+    .pay {
+        box-shadow: 0px 0px 5px;
+        margin: 36px 17px 0px 14px;
+        background-color: #434343;
+        width: 23%;
+        height: 126px;
+        border-radius: 7px;
+        display: inline-block;
+    }
+    
+    .mon {
+        font-size: 11px;
+    text-shadow: 0px 0px 2px black;
+    color: white;
+    margin-right: 29%
+    }
+    
+    .pip {
+        border-radius: 10px;
+        margin: 20px;
+        background-color: rgb(145, 145, 145);
+        width: 91%;
+        height: 880px;
+    }
+    
+    .saf {
+        text-align: center;
+        display: block;
+        font-size: 15px;
+        color: white;
+        text-shadow: 0px 0px 1px black;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    body {
+        background-color: gray;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        direction: rtl;
+    }
+    
+    .sarg {
+        direction: rtl;
+        background-color: rgb(59, 59, 59);
+        height: 51px; 
+        width: 100%;
+    }
+    
+    .mttn {
+        direction: rtl;
+        margin-top: 15px;
+        margin-right: 4%;
+        display: inline-block;
+        font-size: 14px;
+        color: white;
+    }
+    
+    .search-box {
+        width: 34%;
+        height: 36%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 1%;
+    }
+    
+    .search-button {
+        width: 25px;   
+        height: 25px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-weight: 700;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .asd {
+        border-radius: 10px;
+    margin: 6px 7px 0px 21px;
+    width: 77%;
+    }
+    
+    .pay {
+        box-shadow: 0px 0px 5px;
+        margin: 10% 10px 0% 0%;
+        background-color: #434343;
+        width: 28%;
+        height: 145px;
+        border-radius: 7px;
+        display: inline-block;
+    }
+    
+    .mon {
+    font-size: 9px;
+    text-shadow: 0px 0px 2px black;
+    color: white;
+    margin-right: 27%
+    }
+    
+    .pip {
+        border-radius: 10px;
+        margin: 20px;
+        background-color: rgb(145, 145, 145);
+        width: 88%;
+        height: 880px;
+    }
+    
+    .saf {
+        text-align: center;
+        display: block;
+        font-size: 14px;
+        color: white;
+        text-shadow: 0px 0px 1px black;
+        padding-top: 15px;
+    }
+}
